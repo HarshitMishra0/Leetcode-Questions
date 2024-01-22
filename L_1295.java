@@ -1,4 +1,4 @@
-public class L_1298 {
+public class L_1295 {
     public int findNumbers(int[] nums) {
 
         int counter = 0;
