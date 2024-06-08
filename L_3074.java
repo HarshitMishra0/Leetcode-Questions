@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class L_3074 {
     public int minimumBoxes(int[] apple, int[] capacity) {
         Arrays.sort(capacity);
