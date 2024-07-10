@@ -34,7 +34,7 @@ public class L_66 {
             int carry = (digits[digits.length - 1] + 1) / 10;
             for (int i = digits.length - 2; i >= 0; i--) {
                 int number = carry + digits[i];
-                arr[a] = number % 10;
+                arr[a] 1528= number % 10;
                 carry = number / 10;
                 a--;
             }
