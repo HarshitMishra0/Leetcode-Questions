@@ -12,7 +12,7 @@ public class L_3217 {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
 
-        ListNode current = dummy;
+        ListNode current = dummy; 
 
         while (current.next != null) {
             if (arr.contains(current.next.val)) {
